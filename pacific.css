@@ -38,6 +38,8 @@ nav > ul > li {
   text-decoration: none;
 }
 
+/* This is a long column on the left,
+ * but does not go up past the header */
 nav {
   grid-row: 2 / 4;
   height: 100%;
@@ -88,7 +90,9 @@ img {
   margin-right: 1rem;
 }
 
-/* custom list marker images */
+/* custom list marker images 
+ * othe property has a similar effect as 
+ * `display: inline;`*/
 li {
   list-style-image: url("./marker.gif");
   list-style-position: inside;
